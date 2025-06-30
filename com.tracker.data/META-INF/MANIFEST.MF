@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Data
+Bundle-SymbolicName: com.tracker.data
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.tracker.data.DataActivator
+Bundle-Vendor: TRACKER
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Automatic-Module-Name: com.tracker.data
+Import-Package: org.osgi.framework;version="1.3.0"
+Require-Bundle: com.tracker.api;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy

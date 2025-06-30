@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Test
+Bundle-SymbolicName: com.tracker.test
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.tracker.test.TestActivator
+Bundle-Vendor: TRACKER
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Automatic-Module-Name: com.tracker.test
+Import-Package: org.osgi.framework;version="1.3.0"
+Require-Bundle: com.tracker.api;bundle-version="1.0.0",
+ com.tracker.service;bundle-version="1.0.0",
+ com.tracker.UI;bundle-version="1.0.0",
+ com.tracker.data;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy
